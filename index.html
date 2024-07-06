@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <title>Landing -Trail Blazer</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.jpg">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo"><i class="bi bi-code-slash"></i> Trail Blazer</div>
+        <input type="checkbox" name="check" id="check" />
+        <label for="check" id="checkbtn"><i class="bi bi-list"></i></label>
+        <ul class="menu-items">
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href ="#About">About Us</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <div class="text">
+        <h1>Platform Hunt</h1>
+        
+        <button style="margin-top:30px">Get Started</button>
+      </div>
+      <div class="img">
+        <img src="./images/logo3.jpg" alt="" />
+      </div>
+    </section>
+    <section id="About">
+        <div class="text">
+          <h1>About Us</h1>
+          <p>At <span style="font-weight: bold;">Trail Blazer </span>, we are dedicated to empowering students and professionals to chart their own course to success. 
+            Our mission is to provide personalized guidance, expert insights, and valuable resources to help you navigate the complex landscape of career development. 
+            Whether you are just starting your educational journey, seeking to transition into a new field, or aiming to advance in your current profession, we are here to support you every step of the way. 
+            Join us in unlocking your potential and building a fulfilling and impactful career.
+          </p>
+        </div>
+      </section>
+    <section id="features">
+      <div class="content">
+        <p>Features</p>
+        <h2>Coding Languages</h2>
+        <img src="./img/features.png" alt="" />
+      </div>
+      <div class="cards">
+        <div class="card">
+          <i class="bi bi-check"></i>
+          <h3 class="links"><a target="_blank" href="java.html">JAVA</a></h3>
+        </div>
+        
+        <div class="card">
+          <i class="bi bi-check"></i>
+          <h3 class="links"><a target="_blank"href="python.html">PYTHON</a></h3>
+        </div>
+
+        <div class="card">
+          <i class="bi bi-check"></i>
+          <h3 class="links"><a href="c++.html" >C++</a></h3>
+        </div>
+      </div>
+
+        <div class="content">
+            <h2>Front-End</h2>
+        </div>
+    <div class="cards">
+        <div class="card">
+            <i class="bi bi-check"></i>
+            <h3><a target="_blank"href="html.html">HTML</a></h3>
+        </div>
+        <div class="card">
+            <i class="bi bi-check"></i>
+            <h3>CSS</h3>
+         </div>
+         <div class="card">
+            <i class="bi bi-check"></i>
+            <h3>JAVASCRIPT</h3>
+          </div>
+         
+          <div class="card">
+            <i class="bi bi-check"></i>
+            <h3>REACT</h3>
+          </div>
+         
+    </div>
+    <div class="content">
+        <h2>Back-End</h2>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <i class="bi bi-check"></i>
+            <h3>SQL</h3>
+        </div>
+        <div class="card">
+            <i class="bi bi-check"></i>
+            <h3>PHP</h3>
+         </div>
+          <div class="card">
+            <i class="bi bi-check"></i>
+            <h3></h3>
+          </div>
+          <div class="card">
+            <i class="bi bi-check"></i>
+            <h3>PYTHON</h3>
+          </div>
+    </div>
+    </section>
+    <section id="services">
+      <div class="content">
+        <h2>Services</h2>
+        <div class="cards">
+          <div class="card card-android">
+            <div class="card-body">
+              <a href="rodmap.html"><i class="bi bi-android"></a></i>
+              <h2>Roadmaps</h2>
+              <p>
+                We have  very simplified roadmaps for respective courses the user select.
+              </p>
+            </div>
+            
+          </div>
+          <div class="card card-website">
+            <div class="card-body">
+              <i class="bi bi-code-square"></i>
+              <h2>Webinar</h2>
+              <p>
+                We recommend you necessary webinars on how to embark your journey in specific field 
+              </p>
+            </div>
+          </div>
+          <div class="card card-others">
+            <div class="card-body">
+              <i class="bi bi-chat-right"></i>
+              <h2>Other</h2>
+              <p>
+                We provide you any type of recommendation services as you need, for
+                more details please contact us
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="content">
+        <p>Contact</p>
+        <h2>Contact Us</h2>
+      </div>
+      <form action="insert.php" id="feedbackForm" method="post" accept-charset="utf-8">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value="" />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" value="" />
+        <label for="feedback">Feedback</label>
+        <input type="text" name="feedback" id="feedback" value="" />
+        <label for="suggestion">Suggestion</label>
+        <textarea name="suggestion" id="suggestion" rows="8" cols="40"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <h3><i class="bi bi-code-slash"></i> Career Path</h3>
+        <p>
+          The "Trail Blazer"  represents a transformative approach to career guidance, emphasizing user empowerment, adaptability, and the universal relevance of informed decision-making.
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent form from submitting the traditional way
+      
+          var formData = new FormData(this);
+      
+          fetch('insert.php', {
+              method: 'POST',
+              body: formData
+          })
+          .then(response => response.text())
+          .then(result => {
+              // Display success message
+              alert(result);
+              // Optionally, reset the form
+              document.getElementById('feedbackForm').reset();
+          })
+          .catch(error => {
+              console.error('Error:', error);
+          });
+      });
+      </script>
+  </body>
+</html>

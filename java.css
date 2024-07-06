@@ -1,0 +1,58 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  #platforms {
+    padding: 50px 20px;
+  }
+  
+  #platforms .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #platforms h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+  
+  .platform {
+    display: flex;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .platform img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .platform .info {
+    flex: 1;
+  }
+  
+  .platform .info h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .platform .info h2 a {
+    text-decoration: none;
+    color: #0073e6;
+  }
+  
+  .platform .info p {
+    margin: 10px 0;
+  }
